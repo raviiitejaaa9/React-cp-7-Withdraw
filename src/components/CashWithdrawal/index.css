@@ -1,0 +1,96 @@
+/* Write your CSS here */
+* {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+}
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #150b3e;
+  width: 56%;
+  border: 0px;
+  border-radius: 8px;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.profile-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  background-color: #c7d2fe;
+  border-radius: 25px;
+  text-align: center;
+  margin-right: 20px;
+  color: #585076;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.username {
+  font-weight: 400;
+}
+
+.bal-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 90%;
+}
+
+.bal-head {
+  color: #585076;
+  margin-right: 20%;
+  font-size: 18px;
+}
+
+.amount {
+  color: #c7d2fe;
+  font-size: 20px;
+}
+
+.currency-name {
+  color: #585076;
+}
+
+.choose-sum {
+  color: #585076;
+}
+
+.withdraw-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.denomination-buttons-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.withdraw {
+  font-size: 18px;
+  font-weight: bold;
+}
